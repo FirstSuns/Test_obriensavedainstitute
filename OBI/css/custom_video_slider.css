@@ -1,0 +1,194 @@
+/* popup css */
+	.c-play-video {
+		cursor:pointer;
+	}
+	.c-iframe {
+		margin: 0px !important;
+		padding: 0px !important;
+		border: 0px;
+	}
+	.c-popup {
+		position: relative;
+		background-color: white;
+		border: 1px solid #eee;
+		max-width: 1000px;
+		width:85%;
+		margin: 0 auto;
+		/*box-shadow: 8px 5px 32px 1px grey;*/
+		/*left:125px;*/
+		top:30px;
+		font-family: 'poppins-1','poppins-2',sans-serif;
+		padding-bottom:0px;
+		border-left: 4px solid #AACA4A;
+		border-right: 4px solid #AACA4A;
+		border-top: 2px solid #AACA4A;
+		border-bottom: 2px solid #AACA4A;
+	}
+	.c-popup .c-video-div {
+		    margin-bottom: -4px;
+		/*float: left;
+		width: 375px;*/
+	}
+	.c-popup .c-details {
+		padding-left: 3px;
+		width: 48%;
+		float: right;
+		margin-bottom:14px;
+	}
+
+	span.c-close {
+		float: right;
+		right: -15px;
+		position: absolute;
+		top: -15px;
+		cursor: pointer;
+		border: 1px solid #AACA4A;
+		padding: 8px 10px 7px 10px;
+		border-radius: 90px;
+		background-color: #fff;
+		color: #AACA4A;
+		font-weight: bold;
+	}
+	
+	.c-popup .c-details h2 {
+		color:#BE1D2C;
+		font-weight:bold;
+		font-size:30px;
+		margin-bottom:0px;
+	}
+	.c-form-control {
+		height: 40px !important;
+		border-radius: 0px !important;
+	}
+	/*
+	.c-popup-img{
+		border-right: 1px solid #ccc;
+		margin-top: 24px;
+		margin-left:1px;
+	}
+	.error-request-price {
+		box-shadow: 0 0 5px 1px #f00 !important;
+	}
+	.c-success-msg h2, .c-success-msg p {
+		color:#be1e2d;
+		text-align: center;
+		font-style: italic;
+		font-family: 'poppins-1','poppins-2',sans-serif;
+	}
+
+	.c-container, .c-container .c-row {
+		width:100%;
+		max-width:1060px;
+		position:relative;
+		overflow:hidden;
+		display:block;
+		clear:both;
+		margin:0 auto;
+		margin-top:20px;
+	}
+	
+	.c-container .p-box {
+		float:left;
+		margin-right:15px;
+		margin-bottom:15px;
+	}
+	*/
+	
+	.c-display-none {
+		display:none;
+	}
+	
+	/* Slider css */
+	* {box-sizing:border-box}
+
+	/* Slideshow container */
+	.slideshow-container {
+		max-width: 1960px;
+		position: relative;
+		margin: auto;
+	}
+
+	/* Hide the images by default */
+	.mySlides {
+		display: none;
+	}
+
+	/* Next & previous buttons */
+	.prev, .next {
+		cursor: pointer;
+		position: absolute;
+		top: 50%;
+		width: auto;
+		margin-top: -22px;
+		padding: 16px;
+		color: white;
+		font-weight: bold;
+		font-size: 18px;
+		transition: 0.6s ease;
+		border-radius: 0 3px 3px 0;
+	}
+
+	/* Position the "next button" to the right */
+	.next {
+	  right: 0;
+	  border-radius: 3px 0 0 3px;
+	}
+
+	/* On hover, add a black background color with a little bit see-through */
+	.prev:hover, .next:hover {
+	  background-color: rgba(0,0,0,0.8);
+	}
+
+	/* Caption text */
+	.text {
+	  color: #f2f2f2;
+	  font-size: 15px;
+	  padding: 8px 12px;
+	  position: absolute;
+	  bottom: 8px;
+	  width: 100%;
+	  text-align: center;
+	}
+
+	/* Number text (1/3 etc) */
+	.numbertext {
+	  color: #f2f2f2;
+	  font-size: 12px;
+	  padding: 8px 12px;
+	  position: absolute;
+	  top: 0;
+	}
+
+	/* The dots/bullets/indicators */
+	.dot {
+	  cursor: pointer;
+	  height: 15px;
+	  width: 15px;
+	  margin: 0 2px;
+	  background-color: #bbb;
+	  border-radius: 50%;
+	  display: inline-block;
+	  transition: background-color 0.6s ease;
+	}
+
+	.active, .dot:hover {
+	  background-color: #717171;
+	}
+
+	/* Fading animation */
+	.fade {
+	  -webkit-animation-name: fade;
+	  -webkit-animation-duration: 1.5s;
+	  animation-name: fade;
+	  animation-duration: 1.5s;
+	}
+
+	@-webkit-keyframes fade {
+	  from {opacity: .4} 
+	  to {opacity: 1}
+	}
+
+	@keyframes fade {
+	  from {opacity: .4} 
+	  to {opacity: 1}
+	}

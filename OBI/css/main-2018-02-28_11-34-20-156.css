@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Barlow Condensed', sans-serif;
+	
+	
+}
+
+.billboardtext {
+position: absolute;
+top: 40%;
+color: #000;
+text-align: center;
+width: 100%;
+z-index: 9999999999999;
+text-transform: uppercase;
+	font-weight: 600;
+	font-size: 70px;
+	 text-shadow: 1px 1px 3px #000;
+	
+	
+}
+
+.billboardsubtext {
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-weight:normal;
+	font-size: 30px;
+	text-shadow: 0px 0px 0px #000;
+	
+}

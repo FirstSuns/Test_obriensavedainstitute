@@ -1,0 +1,5 @@
+/*! jQuery UI - v1.10.4 - 2014-04-02
+* http://jqueryui.com
+* Copyright 2014 jQuery Foundation and other contributors; Licensed MIT */
+
+.ui-tabs{position:relative;}.ui-tabs .ui-tabs-nav{margin:0;padding:0; position: absolute; top: -99px; width: 100%}.ui-tabs .ui-tabs-nav li{width: 48%; list-style:none;float:left;position:relative;top:0;border-bottom-width:0;white-space:nowrap; padding: 10px 0px 10px 20px; outline: none; font-size: 30px; font-weight: normal}.ui-tabs .ui-tabs-nav .ui-tabs-anchor{float:left;padding:0;text-decoration:none; outline: none}.ui-tabs .ui-tabs-nav li.ui-tabs-active{}.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,.ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor,.ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor{cursor:text}.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor{cursor:pointer;}.ui-tabs .ui-tabs-panel{display:block;border:none;padding:20px 20px 40px 20px;background:none; text-align: left; position: relative}

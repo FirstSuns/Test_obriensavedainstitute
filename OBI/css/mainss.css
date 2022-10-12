@@ -1,0 +1,505 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Barlow Condensed', sans-serif;
+	color: #231f20;
+	
+	
+}
+
+.greentext {
+	color:#AACA4A;
+	
+	
+} 
+
+a {
+	color:#AACA4A;
+	text-decoration: underline;
+	
+	
+}
+
+h3 {
+	color:#AACA4A;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 600;
+	margin: 10px 0px;
+	
+	
+}
+
+.wrapper {
+	width: 1080px;
+	margin: 0 auto;
+	
+	
+}
+
+
+
+.billboardsubtext {
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-weight:normal;
+	font-size: 30px;
+	text-shadow: 0px 0px 0px #000;
+	
+}
+
+.header {
+	position: fixed;
+	z-index: 99999999999999;
+	width: 100%;
+	background-image: url(../images/bgtrans.png);
+	
+}
+
+.topbar {
+	border-bottom: 1px solid #b7b7b9;
+	padding: 8px 0px;
+	font-size: 18px;
+	font-weight: 600;
+	
+	
+}
+
+.navbar {
+	border-bottom: 1px solid #b7b7b9;
+	padding: 15px 0px;
+	
+	
+}
+
+.logo {
+	float: left;
+	
+	
+}
+
+.nav {
+	float: right;
+	
+	
+}
+
+.navitem {
+	float: left;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 30px 20px 0px 20px;
+	padding-bottom: 4px;
+	border-bottom: 3px solid transparent;
+	transition: 0.25s;
+	
+}
+
+.navitem:hover {
+	border-bottom: 3px solid #AACA4A;
+	cursor: pointer;
+	 transition: 0.25s;
+	
+}
+
+.topbutton1 {
+	text-transform: uppercase;
+	border: 1px solid #AACA4A;
+	border-radius: 5px;
+	padding: 4px 30px;
+	float: right;
+	font-size: 18px;
+	color: #AACA4A;
+	transition: 0.25s;
+	
+}
+
+.topbutton1:hover {
+	color: #231F20;
+	cursor: pointer;
+	 transition: 0.25s;
+	
+}
+
+.topbutton2 {
+	text-transform: uppercase;
+	border: 1px solid #AACA4A;
+	background-color: #AACA4A;
+	color: #fff;
+	border-radius: 5px;
+	padding: 4px 30px;
+	float: right;
+	font-size: 18px;
+	margin-left: 10px;
+		
+}
+
+.topbutton2:hover {
+	color: #231F20;
+	cursor: pointer;
+	 transition: 0.25s;
+	
+}
+
+.phone {
+	float: left;
+	margin-right: 30px;
+	
+	padding: 6px 0px;
+	
+	
+}
+
+.address {
+	float: left;
+	font-weight: normal;
+	
+	padding: 6px 0px;
+	
+	
+}
+
+.socialicon {
+	height: 30px;
+	width: 30px;
+	background-position: top center;
+	background-repeat: no-repeat;
+	float: right;
+	transition: 0.25s;
+}
+
+.socialicon:hover {
+	cursor: pointer;
+	 transition: 0.25s;
+	background-position: bottom center;
+}
+
+.greenbar {
+	background-color: #AACA4A;
+	padding: 40px 0px 180px 0px;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: 600;
+	
+}
+
+
+
+.programs {
+	padding: 200px 0px 40px 0px;
+	text-align: center;
+	font-size: 50px;
+	border-bottom: 10px solid #AACA4A;
+	
+}
+
+.programbox {
+	float: left;
+	position: relative;
+	width: 340px;
+	font-size: 18px;
+	margin: 0px 10px;
+	
+	
+}
+
+.programimg {
+	position: absolute;
+	width: 340px;
+	height: 340px;
+	background-color: #363636;
+	top: -350px;
+}
+
+.videobox {
+	border-bottom: 10px solid #AACA4A;
+	background-color: #363636;
+	padding: 100px 0px;
+	text-align: center;
+	color: #fff;
+	font-size: 60px;
+	font-weight: 600;
+	
+	
+}
+
+.watchvideo {
+	color: #AACA4A;
+	font-size: 14px;
+	font-weight: normal;
+	
+	
+}
+
+.socialfeed {
+	padding: 60px 0px 0px 0px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+	
+	
+}
+
+.socialicons {width: 340px;
+	margin: 0 auto;
+	 
+	
+	
+}
+
+.socialicon2 {
+	height: 75px;
+	width: 75px;
+	margin: 15px 5px 15px 5px;
+	background-position: top center;
+	background-repeat: no-repeat;
+	float: right;
+	transition: 0.25s;
+}
+
+.socialicon2:hover {
+	cursor: pointer;
+	 transition: 0.25s;
+	background-position: bottom center;
+}
+
+.socialpost {
+	background-color: #363636;
+	width: 25%;
+	height: 400px;
+	float: left;
+	
+}
+
+.quiz {
+	background-color: #231f20;
+	padding: 40px 0px;
+	color: #fff;
+	font-weight: 500;
+	font-size: 65px;
+	
+	
+}
+
+.quiztext {
+	float: left;
+	
+	
+}
+
+.quizbutton {
+	float:right;
+	font-size: 30px;
+	margin-top: 50px;
+}
+
+.line2 {
+	margin-left: 350px;
+	
+}
+
+.footer {
+	border-top: 10px solid #AACA4A;
+	padding: 40px 0px;
+	background-image: url(../images/footerbg.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	
+	
+}
+
+.footer ul{
+	float: left;
+	width: 20%;
+	list-style-position: inside;
+	 padding-left:0;font-size: 20px;
+}
+
+.footer li{
+	list-style: none;
+	list-style-position: inside;
+	line-height: 30px;
+	
+	
+}
+
+.footer li a{
+	text-decoration: none;
+	color: #231f20; transition: 0.25s;
+	
+	
+}
+.footer li a:hover{
+	text-decoration: underline;
+	color: #AACA4A; transition: 0.25s;
+	
+	
+}
+
+.footertitle {
+	color: #AACA4A;
+	font-size: 25px;
+}
+
+.footer img {
+	float: right;
+	
+	
+}
+.copyright {
+	margin-top: 20px;
+	float: left;
+	
+	
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+
+	
+	.wrapper {
+	width: 95%;
+	margin: 0 auto;
+		transition: 0.25s;
+	
+	
+}
+	
+	.address {
+		display: none;
+		transition: 0.25s;
+		
+	}
+	
+	.phone {
+		display: none;
+		transition: 0.25s;
+		
+	}
+	
+	.topbutton1 {
+		float: left;
+	
+	padding: 4px 15px;
+	font-size: 16px;
+	color: #AACA4A;
+		margin-right: 5px;
+	transition: 0.25s;
+	}
+	.topbutton2 {
+		float: left;
+	margin-right: 5px;
+	padding: 4px 15px;
+	font-size: 16px;
+	color: #fff;
+	transition: 0.25s;
+	
+	}
+	
+	.logo img{
+		width: 300px;
+		height: auto;
+		transition: 0.25s;
+		
+	}
+	
+	.nav {
+		display: none;
+		transition: 0.25s;
+		
+	}
+	
+	.programbox {
+	float: none;
+	position: relative;
+	width: 100%;
+	font-size: 18px;
+	margin: 0px 10px 10px 0px;
+	
+	
+}
+	
+	.programimg {
+	position: relative;
+	width: 100%;
+	height: 200px;
+	background-color: #363636;
+	top: 0px;
+}
+	
+	.programs {
+	padding: 10px 0px 40px 0px;
+	text-align: center;
+	font-size: 50px;
+	border-bottom: 10px solid #AACA4A;
+	
+}
+	
+.greenbar {
+	padding: 20px 0px 20px 0px;
+	
+	
+}
+	
+	.socialpost {
+	background-color: #363636;
+	width: 100%;
+	height: 300px;
+	float: none;
+	
+}
+	
+	.quiztext {
+	float: none;
+		line-height: 55px;
+	
+	
+}
+	
+	.line2 {
+	margin-left: 0px;
+	
+}
+	
+	.quizbutton {
+	float:none;
+	font-size: 30px;
+		margin: 0px auto;
+	margin-top: 50px;
+}
+	
+	.footer ul{
+	float: none;
+	width: 100%;
+		text-align: center;
+	list-style-position: inside;
+	 padding-left:0;font-size: 20px;
+}
+	.videobox {
+	
+	font-size: 50px;
+	
+	
+}
+	
+	.copyright {
+	margin-top: 20px;
+	float: none;
+	
+	
+}
+
+.footer img {
+	float: none;
+	
+	
+}
+	
+
+
+}

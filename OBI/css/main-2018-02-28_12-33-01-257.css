@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Barlow Condensed', sans-serif;
+	
+	
+}
+
+.greentext {
+	color:#AACA4A;
+	
+	
+} 
+
+a {
+	color:#AACA4A;
+	text-decoration: underline;
+	
+	
+}
+
+.wrapper {
+	width: 1080px;
+	margin: 0 auto;
+	
+	
+}
+
+.billboardtext {
+position: absolute;
+top: 50%;
+color: #000;
+text-align: center;
+width: 100%;
+z-index: 9999999999999;
+text-transform: uppercase;
+	font-weight: 600;
+	font-size: 70px;
+	 text-shadow: 1px 1px 3px #000;
+	
+	
+}
+
+.billboardsubtext {
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-weight:normal;
+	font-size: 30px;
+	text-shadow: 0px 0px 0px #000;
+	
+}
+
+.header {
+	position: fixed;
+	z-index: 99999999999999;
+	width: 100%;
+	background-image: url(../images/bgtrans.png);
+	
+}
+
+.topbar {
+	border-bottom: 1px solid #b7b7b9;
+	padding: 8px 0px;
+	font-size: 18px;
+	font-weight: 600;
+	
+	
+}
+
+.navbar {
+	border-bottom: 1px solid #b7b7b9;
+	padding: 15px 0px;
+	
+	
+}
+
+.logo {
+	float: left;
+	
+	
+}
+
+.nav {
+	float: right;
+	
+	
+}
+
+.navitem {
+	float: left;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 30px 20px 0px 20px;
+	padding-bottom: 4px;
+	border-bottom: 3px solid transparent;
+	transition: 0.25s;
+	
+}
+
+.navitem:hover {
+	border-bottom: 3px solid #AACA4A;
+	cursor: pointer;
+	 transition: 0.25s;
+	
+}
+
+.topbutton1 {
+	text-transform: uppercase;
+	border: 1px solid #AACA4A;
+	border-radius: 5px;
+	padding: 4px 30px;
+	float: right;
+	font-size: 18px;
+	color: #AACA4A;
+	transition: 0.25s;
+	
+}
+
+.topbutton1:hover {
+	color: #231F20;
+	cursor: pointer;
+	 transition: 0.25s;
+	
+}
+
+.topbutton2 {
+	text-transform: uppercase;
+	border: 1px solid #AACA4A;
+	background-color: #AACA4A;
+	color: #fff;
+	border-radius: 5px;
+	padding: 4px 30px;
+	float: right;
+	font-size: 18px;
+	margin-left: 10px;
+		
+}
+
+.topbutton2:hover {
+	color: #231F20;
+	cursor: pointer;
+	 transition: 0.25s;
+	
+}
+
+.phone {
+	float: left;
+	margin-right: 30px;
+	
+	padding: 6px 0px;
+	
+	
+}
+
+.address {
+	float: left;
+	font-weight: normal;
+	
+	padding: 6px 0px;
+	
+	
+}
+
+.socialicon {
+	height: 30px;
+	width: 30px;
+	background-position: top center;
+	background-repeat: no-repeat;
+	float: right;
+	transition: 0.25s;
+}
+
+.socialicon:hover {
+	cursor: pointer;
+	 transition: 0.25s;
+	background-position: bottom center;
+}
